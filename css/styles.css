@@ -48,10 +48,12 @@ li {
   color: #404bbf;
 }
 
-.address .link {
-  text-decoration: none;
-  font-size: 16px;
+.font-style {
   font-style: normal;
+}
+
+.address .link {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -79,6 +81,11 @@ div {
   color: #ffffff;
 }
 .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
 }
@@ -109,6 +116,7 @@ div {
 }
 .section-our-team {
   background-color: #f4f4fd;
+  text-transform: capitalize;
 }
 
 .header {
@@ -117,6 +125,7 @@ div {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
   background-color: #ffffff;
