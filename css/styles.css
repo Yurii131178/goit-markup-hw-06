@@ -71,7 +71,7 @@ li {
   background-color: #2e2f42;
 }
 
-.header-h1 {
+.hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -93,7 +93,7 @@ li {
   background-color: #404bbf;
 }
 /* FEATURES-S2 */
-.header-h2 {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -119,7 +119,7 @@ li {
   background-color: #f4f4fd;
   text-transform: capitalize;
 }
-.header-h2 {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -139,7 +139,7 @@ li {
 }
 
 /* OUR PORTFOLIO-S4 */
-.header-h2 {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -147,7 +147,7 @@ li {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.features {
+.card-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
