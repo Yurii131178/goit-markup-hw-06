@@ -45,14 +45,16 @@ li {
   text-decoration: none;
   font-style: normal;
 }
-
+/* address */
+.font-style {
+  font-style: normal;
+}
 .contact-info {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-  font-style: normal;
+  color: #434455;
+  /* text-decoration: none; */
 }
 
 .link:hover,
@@ -69,7 +71,7 @@ li {
   background-color: #2e2f42;
 }
 
-.header-1 {
+.header-h1 {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -112,11 +114,19 @@ li {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* OUR TEAM-S3 */
 .section-our-team {
   background-color: #f4f4fd;
   text-transform: capitalize;
 }
-
+.header-h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 .team-list {
   background-color: #ffffff;
 }
@@ -127,14 +137,15 @@ li {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header3 {
-  font-weight: 700;
+
+/* OUR PORTFOLIO-S4 */
+.header-h2 {
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-transform: capitalize;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .features {
   font-weight: 500;
