@@ -7,7 +7,10 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-
+li {
+  list-style-type: none;
+}
+/* HEADER */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -18,20 +21,19 @@ body {
   color: #4d5ae5;
   text-decoration: none;
 }
-.logo .studio-text {
+
+.logo .logo-text {
   color: #2e2f42;
 }
+
 .logo:hover,
-logo:focus {
-  color: #404bbf;
-}
-.logo .studio-text:hover,
-.logo .studio-text:focus {
+.logo:focus {
   color: #404bbf;
 }
 
-li {
-  list-style-type: none;
+.logo .logo-text:hover,
+.logo .logo-text:focus {
+  color: #404bbf;
 }
 
 .link {
@@ -41,6 +43,16 @@ li {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  font-style: normal;
+}
+
+.contact-info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+  font-style: normal;
 }
 
 .link:hover,
@@ -48,31 +60,16 @@ li {
   color: #404bbf;
 }
 
-.font-style {
-  font-style: normal;
-}
-
-.address .link {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.address .link:hover,
-.address .link:focus {
+.contact-info:hover,
+.contact-info:focus {
   color: #404bbf;
 }
-
-div {
-  background-color: #f4f4fd;
-}
+/* HERO */
 .hero {
   background-color: #2e2f42;
 }
-.header1 {
-  font-weight: 700;
+
+.header-1 {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -93,12 +90,13 @@ div {
 .button:focus {
   background-color: #404bbf;
 }
-
-.header_features {
-  font-weight: 700;
+/* FEATURES-S2 */
+.header-h2 {
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .features {
@@ -119,15 +117,6 @@ div {
   text-transform: capitalize;
 }
 
-.header2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-transform: capitalize;
-  text-align: center;
-}
 .team-list {
   background-color: #ffffff;
 }
@@ -176,7 +165,7 @@ div {
   text-decoration: none;
 }
 
-.studio-text-footer {
+.logo-text-footer {
   color: #f4f4fd;
 }
 .footer-text {
