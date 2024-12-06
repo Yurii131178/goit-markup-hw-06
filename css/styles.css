@@ -255,7 +255,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -265,12 +265,6 @@ img {
 
 /* OUR PORTFOLIO-S4 */
 .section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
 }
 .card-title {
   font-weight: 500;
@@ -303,15 +297,15 @@ img {
   height: 420px;
 }
 .port-card .card-title {
-  margin-top: 32px;
-  margin-bottom: 8px;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .port-card .text {
-  margin-top: 0;
+  padding-top: 0;
   padding-bottom: 32px;
 }
-
-.footer {
+/* footer */
+.page-footer {
   background-color: #2e2f42;
 }
 
@@ -333,4 +327,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  height: 72px;
+  width: 264px;
+  margin-top: 16px;
+}
+
+.footer-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
