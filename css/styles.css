@@ -292,9 +292,10 @@ img {
 }
 
 .port-card {
-  display: flex;
+  display: block;
   flex-direction: column;
   height: 420px;
+  border-bottom: 1px solid var(--cornflower);
 }
 .port-card .card-title {
   padding-top: 32px;
