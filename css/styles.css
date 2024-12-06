@@ -142,15 +142,11 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  margin-right: auto;
 }
 
 .button {
-  display: flex;
-  flex-direction: column;
   border-radius: 4px;
   border: none;
-  padding: 16px 32px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -160,13 +156,14 @@ img {
   cursor: pointer;
   width: 169px;
   height: 56px;
+  margin-bottom: 120px;
   margin-right: auto;
   margin-left: auto;
 }
 .hero-container {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 188px;
+  justify-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 .button:hover,
 .button:focus {
