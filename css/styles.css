@@ -199,7 +199,7 @@ img {
   overflow: hidden;
 }
 
-.features {
+.features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -232,9 +232,9 @@ img {
 
 .team-item-card {
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
   padding: 32px 0;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-card .header-name {
@@ -281,10 +281,11 @@ img {
   color: #434455;
 }
 
-.portfolio-container {
+.portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
