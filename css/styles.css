@@ -38,6 +38,7 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -130,10 +131,11 @@ img {
   display: block;
   background-color: #2e2f42;
   height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
-  padding-top: 188px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 48px;
@@ -172,7 +174,7 @@ img {
   background-color: #404bbf;
 }
 /* FEATURES*/
-.section {
+.section-features {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -209,8 +211,6 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
@@ -233,20 +233,20 @@ img {
 .team-item-card {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
+  padding: 32px 0;
 }
 
 .team-item-card .header-name {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 .team-item-card .text {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 32px;
 }
 .section-title {
   text-align: center;
@@ -291,7 +291,7 @@ img {
   row-gap: 48px;
   column-gap: 24px;
 }
-/* new */
+
 .port-card-title-app {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -303,8 +303,10 @@ img {
 }
 
 /* footer */
+
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -317,10 +319,11 @@ img {
   color: #4d5ae5;
 }
 
-.logo .footer-logo {
+.footer-logo {
   display: inline-block;
+  margin-bottom: 16px;
 }
-.logo-text-footer {
+.textfooter {
   color: #f4f4fd;
 }
 .footer-text {
@@ -330,9 +333,4 @@ img {
   color: #f4f4fd;
   height: 72px;
   width: 264px;
-  margin-top: 16px;
-}
-
-.container {
-  padding: 100px 0;
 }
