@@ -97,6 +97,19 @@ img {
   color: #2e2f42;
   font-style: normal;
 }
+
+.underline::after {
+  display: block;
+  content: " ";
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  margin: 0 auto;
+  padding-top: ;
+  :20px ;
+}
+
 /* address */
 .contacts {
   margin-left: auto;
@@ -130,9 +143,17 @@ img {
 .hero {
   display: block;
   background-color: #2e2f42;
-  height: 600px;
+  width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/hero/people-office.jpg);
+  background-size: cover;
 }
 
 .hero-title {
@@ -160,15 +181,10 @@ img {
   cursor: pointer;
   min-width: 169px;
   height: 56px;
-  margin-bottom: 120px;
   margin-right: auto;
   margin-left: auto;
 }
-.hero-container {
-  justify-items: center;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .button:hover,
 .button:focus {
   background-color: #404bbf;
