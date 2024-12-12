@@ -220,7 +220,17 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.svg-box {
+  display: flex;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
 .features-title {
   font-weight: 500;
   font-size: 20px;
