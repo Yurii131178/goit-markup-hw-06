@@ -418,3 +418,6 @@ img {
 .container-icon-footer {
   margin-left: 120px;
 }
+.container-icon-footer .social-media-link:hover {
+  background-color: #31d0aa;
+}
