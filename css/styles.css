@@ -487,6 +487,7 @@ input {
   padding: 8px 16px;
   justify-content: center;
   align-items: center;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscription-form-input::placeholder {
   font-weight: 400;
@@ -494,6 +495,11 @@ input {
   line-height: 200%;
   letter-spacing: 0.04em;
   color: white;
+}
+
+.subscription-form-input:hover,
+.subscription-form-input:focus {
+  border: 1px solid #31d0aa;
 }
 
 .subscription-form-button {
@@ -508,11 +514,18 @@ input {
   background-color: #4d5ae5;
   border: none;
   margin-left: 16px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-send {
   fill: white;
   margin-left: 16px;
 }
+
+.subscription-form-button:hover,
+.subscription-form-button:focus {
+  background-color: #31d0aa;
+}
+
 /* ==========MODAL============ */
 .backdrop {
   position: fixed;
