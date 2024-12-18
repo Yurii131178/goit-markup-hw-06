@@ -442,6 +442,7 @@ input {
   height: 80px;
 }
 .footer-text-icon {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -469,7 +470,6 @@ input {
   background-color: #31d0aa;
 }
 .subscription-form-container {
-  /* display: inline-block; */
   width: 453px;
   height: 80px;
   margin-left: auto;
