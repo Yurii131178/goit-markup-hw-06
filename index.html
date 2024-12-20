@@ -495,7 +495,7 @@
                 id="form-user"
                 name="form-user"
                 required
-                pattern="[A-Za-zА-Яа-яІіЇїЄєҐґ']+"
+                pattern="[a-zA-Z-яА-ЯіІїЇєЄґҐʼ]+"
               />
               <svg class="form-user-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
@@ -543,6 +543,23 @@
               placeholder="Text input"
             ></textarea>
           </div>
+          <div class="form-wrapper-checkbox">
+            <input
+              class="checkbox visually-hidden"
+              type="checkbox"
+              name="checkbox"
+              id="form-user-checkbox"
+              required
+            />
+            <label class="form-user-checkbox" for="form-user-checkbox"
+              ><span class="custom-checkbox"
+                ><svg class="custom-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use></svg></span
+              >I accept the terms and conditions of the
+              <a href="#" class="iris">Privacy Policy</a></label
+            >
+          </div>
+          <button type="submit" class="form-button">Send</button>
         </form>
       </div>
     </div>
