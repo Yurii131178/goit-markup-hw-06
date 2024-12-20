@@ -673,7 +673,7 @@ button {
 }
 
 .form-user-comment {
-  border: 1px solid rgba(46, 47, 66, 0.4)
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
   min-height: 120px;
