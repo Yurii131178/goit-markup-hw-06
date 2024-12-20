@@ -667,15 +667,20 @@ button {
 .from-user-icon-wrapper {
   position: relative;
 }
-.form-user-comment {
-  border: 1px solid #8e8f99;
 
+.form-wrapper-textarea-container {
+  margin-bottom: 16px;
+}
+
+.form-user-comment {
+  border: 1px solid rgba(46, 47, 66, 0.4)
   border-radius: 4px;
   width: 100%;
   min-height: 120px;
   resize: none;
   padding: 8px 16px;
   outline: transparent;
+  color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
   font-weight: 400;
   font-size: 12px;
