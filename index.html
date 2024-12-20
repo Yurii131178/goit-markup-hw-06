@@ -488,13 +488,13 @@
         </p>
         <form>
           <div class="form-wrapper-container">
-            <label class="form-user-label" for="form-user-name">Name</label>
+            <label class="form-user-label" for="user-name">Name</label>
             <div class="from-user-icon-wrapper">
               <input
                 class="form-user-input"
                 type="text"
-                id="form-user-name"
-                name="form-user"
+                id="user-name"
+                name="user-name"
                 required
                 pattern="[a-zA-Z-яА-ЯіІїЇєЄґҐʼ]+"
               />
@@ -535,12 +535,11 @@
             </div>
           </div>
           <div class="form-wrapper-container">
-            <label class="form-user-label" for="form-user-comment"
-              >Comment</label
-            >
+            <label class="form-user-label" for="user-comment">Comment</label>
             <textarea
               class="form-user-comment"
-              id="form-user-comment"
+              id="user-comment"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -548,8 +547,9 @@
             <input
               class="checkbox visually-hidden"
               type="checkbox"
-              name="checkbox"
+              name="user-privacy"
               id="form-user-checkbox"
+              value="true"
               required
             />
             <label class="form-user-checkbox" for="form-user-checkbox"
