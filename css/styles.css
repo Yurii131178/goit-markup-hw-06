@@ -576,8 +576,7 @@ button {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop:not(.is-open) .modal {
-  /* transform: translate(-50%, -100%); */
-  transform: translate(-50%, -50%) scale(1.5);
+  transform: translate(-50%, -100%);
 }
 .modal-paragraph {
   font-weight: 500;
@@ -686,6 +685,8 @@ button {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
+
+/* ==============CHECKBOX============== */
 .form-wrapper-checkbox {
   margin-bottom: 24px;
 }
@@ -695,7 +696,7 @@ button {
   justify-content: center;
   align-items: center;
   fill: transparent;
-  cursor: ;
+  cursor: pointer;
   width: 16px;
   height: 16px;
   border-radius: 2px;
