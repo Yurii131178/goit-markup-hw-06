@@ -5,21 +5,7 @@
 /* FEATURES*/
 
 /* OUR TEAM-S3 */
-.section-our-team {
-  background-color: #f4f4fd;
-  text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.section-title {
-  text-align: center;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
-}
+
 .team-list {
   display: flex;
   /* height: 428px; */
