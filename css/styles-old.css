@@ -1,15 +1,5 @@
 /* header */
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
-}
-
-.contacts-link:hover,
-.contacts-link:focus,
-.nav-link.current {
-  color: #404bbf;
-}
 /* HERO */
 .hero {
   display: block;

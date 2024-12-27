@@ -285,6 +285,7 @@ img {
   color: #404bbf;
 }
 
+/* ============mobile-menu-contacts============ */
 .mobile-menu-contacts {
   display: block;
   font-style: normal;
@@ -308,7 +309,34 @@ img {
 
 .mobile-menu-contacts-link:hover,
 .mobile-menu-contacts-link:focus {
-  color: #404bbf;
+  color: #4d5ae5;
+}
+
+/* ===========mobile-menu-social-media=============== */
+.mobile-menu-social-media-container {
+  width: 280px;
+  /* так можна вирявняти блок з соцмережами. На макеті притиснутий до лівого краю  */
+  /* padding-left: 4px; */
+}
+
+.mobile-menu-social-media-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+}
+.mobile-menu-social-media-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  align-items: center;
+  justify-content: center;
+}
+.mobile-menu-social-media-icon {
+  fill: #f4f4fd;
 }
 
 /* відміна зображення меню на планшеті (і десктопа) */
