@@ -249,16 +249,69 @@ img {
   flex-direction: column;
   height: 100%;
 }
-.mobile-menu-close {
+.mobile-menu-close-btn {
   position: absolute;
-
   top: 24px;
   right: 24px;
+  line-height: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.mobile-menu-close-icon {
+  fill: #2e2f42;
+}
+
 .mobile-menu-nav {
   margin-bottom: auto;
 }
+.mobile-menu-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
 
+.mobile-menu-nav-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.mobile-menu-nav-link-studio {
+  color: #404bbf;
+}
+
+.contacts {
+  display: block;
+  font-style: normal;
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.contacts-link {
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: inherit;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* відміна зображення меню на планшеті (і десктопа) */
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
