@@ -919,10 +919,6 @@ img {
   .subscription-form-input {
     width: 264px;
   }
-  .subscription-form-button:hover,
-  .subscription-form-button:focus {
-    background-color: #31d0aa;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157.98px) {
@@ -958,5 +954,10 @@ img {
   .container-icon-footer {
     margin-left: 120px;
     margin-right: 80px;
+  }
+
+  .subscription-form-button:hover,
+  .subscription-form-button:focus {
+    background-color: #31d0aa;
   }
 }
