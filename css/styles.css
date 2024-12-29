@@ -757,16 +757,219 @@ img {
 
 /* =============FOOTER============== */
 
-.page-footer {
-  background-color: #2e2f42;
-  padding: 96px 0;
+@media screen and (min-width: 320px) {
+  .page-footer {
+    background-color: #2e2f42;
+    padding: 96px 0;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .text-color-footer {
+    color: #f4f4fd;
+  }
+  .footer-paragraph {
+    color: #f4f4fd;
+    height: 72px;
+    width: 288px;
+    margin-bottom: 72px;
+  }
+}
+  
+  /* social media */
+
+  .footer-text-icon {
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  .social-media-list-footer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .social-media-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .container-icon-footer .social-media-link:hover,
+  .container-icon-footer .social-media-link:focus {
+    background-color: #31d0aa;
+  }
+  .subscription-form-container {
+    width: 288px;
+    height: 136px;
+    column-gap: 24px;
+  }
+
+  /* input */
+  .subscription-form-input {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    opacity: 0.3;
+    width: 288px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #fff;
+    align-items: center;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .subscription-form-input::placeholder {
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.6;
+  }
+  .subscription-form-input:hover,
+  .subscription-form-input:focus {
+    border: 1px solid #31d0aa;
+  }
+
+  /* subscr-btn */
+
+  .subscription-form-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    border: none;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .icon-send {
+    fill: white;
+    margin-left: 16px;
+  }
+  .subscription-form-button:hover,
+  .subscription-form-button:focus {
+    background-color: #31d0aa;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .container-logo-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-icon-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+  }
+  .subscription-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-text-icon {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .footer-paragraph {
+    width: 264px;
+    margin-bottom: 0;
+  }
+  .container-icon-footer {
+    display: inline-block;
+    flex-direction: column;
+    width: 208px;
+    height: 80px;
+  }
+  .footer-container {
+    align-items: baseline;
+  }
+  .subscription-form-container {
+    width: 453px;
+    height: 80px;
+  }
+
+  .subscription-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .subscription-form-input {
+    width: 264px;
+  }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .footer-container {
+    padding-right: 108px;
+    padding-left: 164px;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .subscription-form-input::placeholder {
+    opacity: 0.6;
+  }
+}
+
+@media screen and (max-width: 1157.98px) {
+  
 
 @media screen and (min-width: 1158px) {
   .page-footer {
     padding: 100px 0;
+  }
+  .subscription-form-container {
+    margin-left: auto;
+  }
+  .subscription-form-input {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    opacity: 1;
+  }
+  .subscription-form-input::placeholder {
+    opacity: 1;
+  }
+
+  .logo:hover,
+  .logo:focus {
+    color: #404bbf;
+  }
+
+  .logo .logo-text:hover,
+  .logo .logo-text:focus {
+    color: #404bbf;
   }
 }
