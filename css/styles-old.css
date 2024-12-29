@@ -15,9 +15,9 @@
   padding: 100px 0;
 } */
 
-.container .foter-container {
+/* .container .foter-container {
   align-items: baseline;
-}
+} */
 /* leave it for tab, maybe */
 
 /* .footer-logo {
@@ -136,10 +136,10 @@
   margin-left: 16px;
 } */
 
-.subscription-form-button:hover,
+/* .subscription-form-button:hover,
 .subscription-form-button:focus {
   background-color: #31d0aa;
-}
+} */
 
 /* ==========MODAL============ */
 .backdrop {
