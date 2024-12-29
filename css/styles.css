@@ -204,6 +204,14 @@ img {
   .header-logo {
     margin-right: 76px;
   }
+
+  .logo:hover,
+  .logo:focus,
+  .logo .logo-text:hover,
+  .logo .logo-text:focus {
+    color: #404bbf;
+  }
+
   .contacts-list {
     flex-direction: row;
     align-items: center;
@@ -866,6 +874,14 @@ img {
 }
 
 @media screen and (max-width: 767.98px) {
+  .page-footer {
+    background-color: #2e2f42;
+    padding: 96px 0;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .container-logo-text {
     display: flex;
     flex-wrap: wrap;
@@ -933,9 +949,6 @@ img {
   .subscription-form-input::placeholder {
     opacity: 0.6;
   }
-}
-
-@media screen and (max-width: 1157.98px) {
 }
 
 @media screen and (min-width: 1158px) {
